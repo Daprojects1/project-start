@@ -2,10 +2,10 @@
 *{box-sizing: border-box;}
 .zone {
 
-    padding:30px 50px;
-    /* margin:40px 60px; */
+    
+    
     cursor:pointer;
-    /* display:inline-block;   */  /*  caused spacing issues*/
+   
     color:#FFF;
     font-size:2em;
     border-radius:4px;
@@ -74,31 +74,17 @@
 }
 
 
-.container{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.5fr 5fr 9fr 0.5fr;
-    
-   }
+
 
 .flex{
     display: flex;
 }
-/* changing provided padding and margin */
-.green{
-    padding: 0;
-   
-}
-nav {
-  align-items: center;
-  
-}
+
+
 ul {
     list-style: none;
     font-size: 1.25rem;
-    width:100%;
-    flex-direction: column;
-    padding:0 35px 0 20px;
+    padding:0 35px 0 40px;
 }
 
 li{
@@ -108,39 +94,36 @@ li{
    
 }
 img{
-    width: 300px;
-    height: 250px;
-    background-color: black;
-    padding:30px;
+  width: 100%;
 }
 
-.red{
+.cover{
+    height: 50vh;
     justify-content: center;
     align-items: center;
 }
 
-.blue {
+.container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    row-gap:20px;
-    column-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap:10px;
     justify-items: center;
     
 }
 
-.yellow{
-    padding: 0;
+.box {
+    padding:130px;
+    margin: 20px;
+    background-color: black;
 }
 
 footer p {
   text-align: center;
   font-size: 0.75rem;
-  padding: 0;
+  
 }
 @media screen and (min-width:540px) {
-    ul {
-        flex-direction:row;
-    }
+  
     li:nth-child(4) {
         margin-left: auto;
     }
