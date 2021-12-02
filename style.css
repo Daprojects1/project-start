@@ -84,14 +84,18 @@
 ul {
     list-style: none;
     font-size: 1.05rem;
+   
     
     
 }
 
+a{
+    color: whitesmoke;
+    text-decoration: none;
+}
 li{
-    margin:3px;
-   
-    text-align: center;
+    margin:10px;
+    
    
 }
 img{
@@ -131,5 +135,9 @@ footer p {
     }
     li:nth-child(4) {
         margin-left: auto;
+    }
+
+    li {
+        padding-left:20px;
     }
 }
