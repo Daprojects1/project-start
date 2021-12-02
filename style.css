@@ -102,6 +102,7 @@ a:hover{
 
 li{
     margin-left:20px;
+   
     
    
 }
@@ -134,7 +135,7 @@ footer p {
   font-size: 0.75rem;
   
 }
-@media screen and (min-width:540px) {
+@media screen and (min-width:300px) {
    
     ul{
         padding:0 35px 0 40px;
@@ -144,7 +145,5 @@ footer p {
         margin-left: auto;
     }
 
-    li {
-        padding-left:20px;
-    }
+   
 }
